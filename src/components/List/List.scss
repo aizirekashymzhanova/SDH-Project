@@ -1,0 +1,35 @@
+@import "../../helpers/variables.scss";
+table,
+th,
+td {
+  border: 1px solid rgb(147, 138, 138);
+  border-collapse: collapse;
+}
+th {
+  font-size: 20px;
+  padding: 3px;
+}
+table {
+  max-width: 600px;
+  margin-left: 10px;
+}
+td {
+  height: 30px;
+  font-size: 16px;
+  padding-left: 5px;
+}
+.del-btn {
+  text-align: center;
+}
+.add__newContact_btn {
+  margin-top: 1rem;
+  margin-left: 10px;
+  width: 12em;
+  padding: 0.5rem 1rem;
+  background: $backgroundColor;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}

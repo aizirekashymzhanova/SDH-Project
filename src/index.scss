@@ -1,0 +1,11 @@
+@import "../src/helpers/variables.scss";
+body {
+  background-color: #dedcdc;
+  color: black;
+  box-sizing: border-box !important;
+  font-family: $latoFont;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
